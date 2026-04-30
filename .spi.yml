@@ -3,5 +3,3 @@ builder:
   configs:
   - documentation_targets: [SwiftOSC]
     scheme: swift-osc
-  - platform: watchOS
-    scheme: NOT-SUPPORTED
