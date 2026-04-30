@@ -18,18 +18,18 @@ Open Sound Control ([OSC](https://opensoundcontrol.stanford.edu)) toolkit writte
 
 All network I/O extension repositories depend on **SwiftOSC Core**. It provides value types, encoding/decoding logic and message dispatch abstractions.
 
-| Repository                                                   | Description                        | Apple | Linux | Android | Windows |
-| :----------------------------------------------------------- | :--------------------------------- | :---: | :---: | :-----: | :-----: |
-| [swift-osc-core](https://github.com/orchetect/swift-osc-core) | Types, encoding/decoding, dispatch |   🟢   |   🟢   |    🟢    |    -    |
+| Repository                                                   | macOS | iOS  | tvOS | visionOS | watchOS | Linux | Android | Windows |
+| :----------------------------------------------------------- | :---: | :--: | :--: | :------: | :-----: | :---: | :-----: | :-----: |
+| [swift-osc-core](https://github.com/orchetect/swift-osc-core) |   🟢   |  🟢   |  🟢   |    🟢     |    🟢    |   🟢   |    🟢    |    -    |
 
 ## Network I/O Extension Repositories
 
 A limited number of network I/O backends are available, with more added in future on a needs-be basis.
 
-| Repository                                                   | Description                  | Apple | Linux | Android | Windows |
-| :----------------------------------------------------------- | :--------------------------- | :---: | :---: | :-----: | :-----: |
-| [swift-osc-io-cocoa](https://github.com/orchetect/swift-osc-io-cocoa) | CocoaAsyncSocket I/O backend |   🟢   |   -   |    -    |    -    |
-| [swift-osc-io-nio](https://github.com/orchetect/swift-osc-io-nio) | SwiftNIO I/O backend         |   🟢   |   🟢   |    🟢    |    -    |
+| Repository                                                   | I/O Backend      | macOS | iOS  | tvOS | watchOS | Linux | Android | Windows |
+| :----------------------------------------------------------- | :--------------- | :---: | :--: | :--: | :-----: | :---: | :-----: | :-----: |
+| [swift-osc-io-cocoa](https://github.com/orchetect/swift-osc-io-cocoa) | CocoaAsyncSocket |   🟢   |  🟢   |  🟢   |    -    |   -   |    -    |    -    |
+| [swift-osc-io-nio](https://github.com/orchetect/swift-osc-io-nio) | SwiftNIO         |   🟢   |  🟢   |  🟢   |    🟢    |   🟢   |    🟢    |    -    |
 
 ## Getting Started
 
