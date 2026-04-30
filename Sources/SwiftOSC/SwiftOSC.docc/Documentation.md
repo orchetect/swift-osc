@@ -39,7 +39,7 @@ import SwiftOSCCore
 
 ### Value Types
 
-- See [OSC Value Types](https://swiftpackageindex.com/orchetect/swift-osc-core/main/documentation/swiftosccore/osc-value-types) in SwiftOSCCore documentation
+- See [OSC Value Types](https://swiftpackageindex.com/orchetect/swift-osc-core/main/documentation/swiftosccore/osc-value-types) in the SwiftOSCCore package documentation.
 
 ### Sending and Receiving
 
