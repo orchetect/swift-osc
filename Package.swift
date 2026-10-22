@@ -10,8 +10,8 @@ let package = Package(
         .library(name: "SwiftOSC", targets: ["SwiftOSC"])
     ],
     dependencies: [
-        .package(url: "https://github.com/orchetect/swift-osc-io-nio", exact: "1.2.0")
         .package(url: "https://github.com/orchetect/swift-osc-core", exact: "1.4.1"),
+        .package(url: "https://github.com/orchetect/swift-osc-io-nio", exact: "1.2.1")
     ],
     targets: [
         .target(
